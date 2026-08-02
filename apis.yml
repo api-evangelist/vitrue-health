@@ -1,7 +1,25 @@
 aid: vitrue-health
 name: Vitrue Health
-description: Vitrue Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vitrue Health is a London-based, Techstars-backed digital health company
+  providing an AI-powered musculoskeletal (MSK) and workplace ergonomics platform.
+  Its VIDA product uses camera-based AI assessments to automate Display Screen Equipment
+  (DSE) compliance, deliver personalized pain-management pathways, and give employers
+  analytics through a VIDA Co-Pilot dashboard, reporting an average 34% reduction in
+  MSK pain. The platform integrates with HR systems, learning management systems, and
+  SSO/provisioning identity providers, but does not publish a public developer API,
+  SDK, or API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66b5c1672e8636170f8a895c/671679f7c1127d2b95259942_Vitrue%20Health.png
 url: https://raw.githubusercontent.com/api-evangelist/vitrue-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Health
+- Musculoskeletal
+- Ergonomics
+- Workplace Wellness
+- DSE Compliance
+- Occupational Health
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vitrue-health-domain-security.yml
 - type: Website
-  url: https://vitruehealth.com/
+  url: https://www.vitruehealth.com/
+- type: Blog
+  url: https://www.vitruehealth.com/blog
+- type: Pricing
+  url: https://www.vitruehealth.com/pricing
+- type: SignUp
+  url: https://resources.vitruehealth.com/start-free-trial
+- type: Support
+  url: https://www.vitruehealth.com/contact
+- type: TermsOfService
+  url: https://www.vitruehealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.vitruehealth.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
