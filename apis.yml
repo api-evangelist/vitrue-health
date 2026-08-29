@@ -8,6 +8,17 @@ description: Vitrue Health is a London-based, Techstars-backed digital health co
   MSK pain. The platform integrates with HR systems, learning management systems, and
   SSO/provisioning identity providers, but does not publish a public developer API,
   SDK, or API documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
