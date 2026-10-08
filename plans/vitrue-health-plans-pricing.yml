@@ -1,0 +1,48 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.vitruehealth.com/pricing
+sources:
+- https://www.vitruehealth.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Prices stated as billed annually; page is for a workplace MSK/DSE assessment product, not an API.
+  Free trial mentioned.
+plan_count: 3
+currency: USD
+plans:
+- name: Starter
+  price_text: $ 200.00 USD
+  price: 200
+  currency: USD
+  period: year
+  unit: up to 100 employees
+  included_quota: DSE compliance in 2 clicks; Personalised employee reports; Empower employees; Ai powered
+    risk assessment
+- name: Growth
+  price_text: $ 400.00 USD
+  price: 400
+  currency: USD
+  period: year
+  unit: up to 500 employees
+  included_quota: All Starter features; Bespoke follow up program; Customised recommendations; Detailed
+    employer insights
+- name: Enterprise
+  price_text: $ 340.00 USD
+  price: 340
+  currency: USD
+  period: year
+  unit: 500+ employees
+  included_quota: All Growth features; Tailor-made assessments; Custom reports and workflows; SSO, provisioning
+    and LMS integration; Enterprise support
+rate_limit_statements:
+- Unlimited assessments per user.
